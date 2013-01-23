@@ -46,6 +46,7 @@ pDC = pDC[-(which(pDC$gene_symbol=="abParts")),]
 pDC = pDC[!duplicated(pDC$gene_symbol),]
 pDC = pDC[,1]
 
+
 monocytes = pbmc_subset[grep("Monocytes",pbmc_subset$Highly.Expressed.in.PBMC.type),]
 monocytes = monocytes[complete.cases(monocytes[,1]),]
 monocytes = monocytes[!duplicated(monocytes$gene_symbol),]
