@@ -1,9 +1,9 @@
 Fold-Enrichment
 ===============
 
-Create a Shiny web application using R for Fold Enrichment Analyses of a Time-Series Experiment
+Create a Shiny web application using R for Fold Enrichment Analyses of a Time-Series Experiment <br>
 
-Fold Enrichment Analyses for a Time-Series Experiment
+Fold Enrichment Analyses for a Time-Series Experiment <br>
 
 This project involves reproducing the analysis and spider plot from Figure 3b,c,e in (Nakaya H et al., 2011,http://www.ncbi.nlm.nih.gov/pubmed/21743478). 
 These plots show the enrichment of cell-specific gene signatures in their datasets. 
@@ -16,8 +16,8 @@ Each time-series would appear as a separate line on the spider plot.
 ###############################
 # Instructions
 ###############################
-1) The input file should have the columns "genes","time series 1","time series 3","time series 3".. ,"time series n"
-2) The differential expression conditions should represent as 1=up-regulated, 0=unchanged, -1=down-regulated.
-3) The code could be modified according to your needs.
-4) Set your working directory properly
-5) In order to run the app, from your R teminal type 'runApp("~/Web_Application/")' [change the path accordingly]
+1) The input file should have the columns "genes","time series 1","time series 3","time series 3".. ,"time series n" <br>
+2) The differential expression conditions should represent as 1=up-regulated, 0=unchanged, -1=down-regulated. <br>
+3) The code could be modified according to your needs. <br>
+4) Set your working directory properly. <br>
+5) In order to run the app, from your R teminal type 'runApp("~/Web_Application/")' [change the path accordingly]. <br>
